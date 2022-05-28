@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+  
+    min-height: 100vh;
+}
+
+/* navbar*/
+
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+    transition: 0.3s;
+    height: 60px;
+}
+
+#myNavbar li a
+{
+    color: #fff;
+    font-family: monospace;
+    font-size: 14.5px;
+    padding-top: 20px;
+    margin-right: -10px;
+    transition: 0.3s ease;
+}
+
+
+#myNavbar li a:hover
+{
+    color: #fcba03;
+    font-weight: bold;
+}
+
+#myNavbar ul .active
+{
+    color: #fcba03;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: #fff;
+    padding-top: 18px;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+
+
+/*end navbar*/
+
+
+.image-back{
+   
+    position: relative;
+}
+
+.background {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.back-text {
+  
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    color: black;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase; 
+    text-align: center;
+    
+    
+}
+
+.content-divider {
+    height: 1rem;
+}
+
+.head {
+    padding-left: 170px;
+}
+
+.row {
+    border: 10px solid rgb(13, 98, 20);
+   background-color: rgb(166, 211, 170);
+    box-shadow: -14px 13px 62px 35px rgba(0,0,0,0.73);
+    -webkit-box-shadow: -14px 13px 62px 35px rgba(0,0,0,0.73);
+    -moz-box-shadow: -14px 13px 62px 35px rgba(0,0,0,0.73);
+}
+
+.list-size {
+    padding-left: 19px;
+    font-size: x-large;
+}
+
+.images{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.para{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+footer {
+    background: black;
+}
+
+a:link {
+    color: #fff;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(30, 79, 194);
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+    padding-right: 20px;
+    text-decoration: none;
+}

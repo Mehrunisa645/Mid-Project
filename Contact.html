@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 120) {
+                    $(".navbar-inverse").css("background", "black");
+                    $(".navbar-nav").css("background", "black");
+                }
+                else {
+                    $(".navbar-inverse").css("background", "black");
+                    $(".navbar-nav").css("background", "#black");
+                }
+            })
+        })
+
+    </script>
+
+
+</head>
+
+<body>
+    <!--navbar-->
+    <header class="header">
+        <div id="bgimage">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">MC</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="Favourite Cities.html">Favorite Cities</a></li>
+                            <li><a href="Favourite Personalities.html">Favorite Personalities</a></li>
+                            <li><a href="Favorite Tourist Spots.html">Favorite Tourist Spots</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--end of nav bar-->
+
+
+        <div class="image-back">
+            <a herf=""><img class="background" src="images/unsplash.jpg"></a>
+            <div class="back-text">
+                <h1><strong>Contact Information</strong></h1>
+            </div>
+        </div>
+
+        <div class="content-divider"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h1>Contact US</h1>
+                    <p>
+                        If You Have any Query then please contact us!
+                    </p>
+                    <!--form-->
+                    <form action="">
+                        <label>Name : </label>
+                        <h4><input type="" placeholder="Enter You Name" required></h4>
+                        <label>Email : </label>
+                        <h4><input type="email" name="email" id="" placeholder="Email" required></h4>
+                        <label>Subject : </label>
+                        <h4><input type="" placeholder="Write a subject" required></h4>
+                        <label>Message : </label>
+                        <h4><textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea></h4>
+                        <input type="submit" name="" value="submit" class="btn">
+
+                    </form>
+                </div>
+
+
+                <!--image-->
+
+                <div class="col-sm-6">
+                    <a herf=""><img class="background" src="images/contact1.jpg"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--footer-->
+        <footer>
+            <div class="container" style="padding: 80px 0;" align="center">
+                <a href="#">
+                    <a href="https://www.facebook.com/">
+                        <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+
+                </a>
+                <a href="#">
+                    <i> <a href="https://www.twitter.com/"><i
+                                class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+                </a>
+                <a href="#">
+                    <a href="https://myaccount.google.com/profile"><i
+                            class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+                </a>
+                <a href="#">
+                    <a href="https://www.linkedin.com/login"><i
+                            class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+                </a>
+                <a href="#">
+
+                    <i> <a href=" https://www.instagram.com/accounts/login/"><i
+                                class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i></a>
+                </a>
+                <a href="#">
+                    <a href="https://www.pinterest.com/"><i class="fa fa-pinterest fa-lg white-text"></i>
+                    </a>
+            </div>
+            <div style="background: lightcoral;">
+                <p style="color: #91BEC2; padding: 15px 0;" align="center">
+                    &copy; 2022 Copyright: <a href="mailto: f2019266318@umt.edu.pk">Created By: Mehru Nisa</a>
+                </p>
+            </div>
+        </footer>
+    </header>
+
+
+
+</body>
+
+</html>
